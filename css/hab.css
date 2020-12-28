@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+  }
+  /* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  /* Header/logo Title */
+  .header_area {
+    padding: 25px;
+    text-align: center;
+    background: darkcyan;
+    color: white;
+  }
+
+  .header_area h1 {
+    margin: 0;
+    color: black; }
+    .header_area h1 span {
+      color:gold; }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    display: flex;
+    background-color: #333;
+    position: -webkit-sticky; /*Safari*/
+    position: sticky;
+    top: 0;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  @media (min-width: 768px) {
+    .navbar {
+      border-radius: 4px;
+    }
+  }
+  
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Main column */
+  .main {
+    flex: 70%;
+    background-color:#ffffff;
+    padding: 20px;
+    /*display: flex;
+    padding: 0px;
+    background-color: #ffffff;
+    width: 100%;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.intro .img_wrap:not(.full-width){
+    float: left;
+    margin: 0 1em .5em;
+    max-width: 300px;
+}
+.p {
+    line-height: 1.4;
+    color: #333;
+    padding: 0 1em 1em;
+    font-size: 1.1em;
+    font-weight: 300;
+    font-size: 18px;
+}
+.intro h5 span {
+color:fuchsia;
+}
+ol {
+  font-size: 1.1em;
+}
+.intro {
+    overflow: hidden;
+    width: 100%;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+/* Sidebar/left column */
+side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: lightsteelblue;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: darkorange;
+  }
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+
+.pastilla {
+    font-size: 1.2em;
+}
+
+.tag {
+  background-color: transparent;
+  -webkit-transition: background-color .3s ease-in-out;
+  -ms-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
+  color:blue;
+  display: inline-block;
+  padding: 10px;
+  margin: 0 .5em .5em 0;
+  border: 2px solid #ac2424;
+  border-radius: 2px;
+  font-size: large;
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: fuchsia;
+  text-align: center;
+}
+
+  /*# sourceMappingURL=style.css.map */
+footer a:hover {
+  color: white;
+}
+footer .layout .wrapper {
+  padding: 0px;
+  background: darkcyan;
+}
+footer .layout .wrapper .informacion {
+  display: none !important;
+}
+footer .layout .wrapper .redes-sociales {
+  height: 50px;
+  margin: 0 auto;
+  padding-top: 16px;
+  float: none;
+}
+footer .layout .wrapper .informacion_movil {
+  display: block!important;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  width: 100%;
+  font-size: 20px;
+  font: bold;
+}
+
+footer .layout .wrapper .redes-sociales a.rs-links {
+  float: left;
+  margin-right: 6px;
+}

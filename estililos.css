@@ -9,18 +9,21 @@ body {
 }
 
 header {
-    padding: 10px;
+    padding: 15px;
     background-color: gold;
     color: white;
     text-align: center;
 }
 
-nav {
+header {
     margin-top: 10px;
     width: 100%;
     overflow: hidden;
     height: 150px;
     position: relative;
+}
+
+nav {
     top: -20px;
     position: absolute;
     left: 0;
@@ -32,15 +35,6 @@ nav {
 
 nav ul {
     list-style: none;
-}
-
-.contenido {
-    display: flex;
-    padding: 0px;
-    background-color: teal;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
 }
 
 nav>ul {
